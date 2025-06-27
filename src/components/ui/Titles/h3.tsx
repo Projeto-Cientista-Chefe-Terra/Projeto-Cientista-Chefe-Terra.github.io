@@ -16,7 +16,7 @@ export default function H3({ children, id,className }: H3Props) {
     <div className={`${className ? className : "w-fit my-4"} `}>
       <h3
         id={id}
-        className={`${montserratFont.className} text-4xl-dynamic text-shadow w-fit  pt-1 pb-2`}
+        className={`${montserratFont.className} text-white text-4xl-dynamic text-shadow w-fit  pt-1 pb-2`}
       >
         {children}
       </h3>

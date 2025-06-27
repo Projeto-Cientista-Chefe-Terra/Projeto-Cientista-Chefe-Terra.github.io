@@ -16,7 +16,7 @@ export default function NumberCard({ index, children, color, className }: Number
       {/* Açoes e projetos */}
       <div
         aria-label={`Ação número ${index + 1}`}
-        className={`w-20 box-shadow rounded bg-cor2b text-center text-4xl-dynamic lg:-ml-5 -ml-1 -mt-5 absolute p-5  ${montserrat.className}`}
+        className={`w-20 box-shadow rounded bg-cor2b text-center text-white text-4xl-dynamic lg:-ml-5 -ml-1 -mt-5 absolute p-5  ${montserrat.className}`}
       >
         <span aria-hidden="true">{index + 1}</span>
       </div>

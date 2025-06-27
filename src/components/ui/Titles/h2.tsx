@@ -13,7 +13,7 @@ export default function H2({ children }: H2Props) {
   return (
     <div className=" w-fit box-shadow my-4">
       <h2
-        className={`${montserratFont.className} text-4xl-dynamic text-shadow bg-cor2b  w-fit px-2 pt-1 pb-2`}
+        className={`${montserratFont.className} text-white text-4xl-dynamic text-shadow bg-cor2b  w-fit px-2 pt-1 pb-2`}
       >
         {children}
       </h2>

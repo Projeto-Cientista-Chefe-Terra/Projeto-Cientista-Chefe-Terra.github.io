@@ -13,7 +13,7 @@ export default function H1({ children }: H1Props) {
   return (
     <div className=" w-fit box-shadow">
       <h1
-        className={`${montserratFont.className} text-5xl-dynamic text-shadow bg-cor2b  w-fit px-2 pt-1 pb-2`}
+        className={`${montserratFont.className} text-white text-5xl-dynamic text-shadow bg-cor2b  w-fit px-2 pt-1 pb-2`}
       >
         {children}
       </h1>
