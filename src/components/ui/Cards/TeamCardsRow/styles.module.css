@@ -1,0 +1,8 @@
+.funciona {
+  flex-shrink: 0;
+  width: fit-content !important;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
