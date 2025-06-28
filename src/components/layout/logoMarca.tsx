@@ -9,7 +9,7 @@ const squadaOne = Squada_One({
 export default function Logomarca() {
   return (
     <div className="flex  lg:w-fit h-80 mb-12">
-      <p className={`${squadaOne.className} text-6xl lg:text-7xl  w-3/6`}>
+      <p className={`${squadaOne.className} text-white text-6xl lg:text-7xl  w-3/6`}>
         Cientista Chefe Terra
       </p>
       <Image

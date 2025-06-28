@@ -64,7 +64,7 @@ export default function AcessibilityBar() {
       <p className="text-sm-dynamic"></p>
       {/* <div>Contraste</div> // ADD Depois */}
 
-      <p className="text-sm-dynamic font-bold">Tamanho da Letra:</p>
+      <p className="text-sm-dynamic text-white font-bold">Tamanho da Letra:</p>
       <div className="flex flex-row justify-center items-end">
         <FontButton onClick={() => adjustSize(step)}>
           <span className="px-2 py-1 text-lg-dynamic font-bold">A+</span>

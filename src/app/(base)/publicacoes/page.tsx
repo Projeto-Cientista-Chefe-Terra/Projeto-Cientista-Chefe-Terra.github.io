@@ -160,7 +160,7 @@ export default function Publicacoes() {
 
       {/* <TimelineSystem articlesList={listaPlaceholder} /> */}
       <TimelineSystem articlesList={listaPlaceholder} />
-      {<div className="text-center text-xl-dynamic place-content-center mb-6 font-bold">Publicações em breve...</div>}
+      {<div className="text-center text-white text-xl-dynamic place-content-center mb-6 font-bold">Publicações em breve...</div>}
     </div>
   );
 }
